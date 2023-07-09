@@ -1,0 +1,61 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+header {
+    background-image: url(./banner/banner2.png);
+    height: 99vh;
+    background-repeat: no-repeat;
+    width: 100vw;
+    background-size: cover;
+}
+.bannerDescription {
+    display: flex;
+    flex-direction: column;
+    margin-right: 20px;
+    padding-top: 216px;
+    padding-right: 220px;
+}
+@media only screen and (max-width: 1200px){
+    .bannerDescription {
+        padding-top: 180px;
+        padding-right: 60px;
+    }
+} 
+
+.bannerDescription h1 {
+    color: #151414;
+    text-align: right;
+    font-family: Work Sans;
+    font-size: 65px;
+    font-style: normal;  
+    margin-bottom: 6px;  
+}
+.bannerDescription p {
+    color: var(--dark-02, #444343);
+text-align: right;
+font-family: Work Sans;
+font-size: 16px;
+font-weight: 400;
+line-height: 26px;
+margin: 18px 12px;
+}
+.bannerDescription button {
+    color: #FFF;
+font-family: Work Sans;
+font-size: 20px;
+font-weight: 600;
+padding: 20px 25px;
+border-radius: 5px;
+background: #F15B22;
+width: 160px;
+height: 64px;
+border: none;
+align-self: flex-end;
+cursor: pointer;
+}
+.bannerDescription button:hover {
+    background-color: aliceblue;
+    color: #F15B22;
+    transition: all 0.5s;
+}
