@@ -16,7 +16,7 @@ header {
     display: flex;
     flex-direction: column;
     margin-right: 20px;
-    padding-top: 296px;
+    padding-top: 200px;
     padding-right: 220px;
 }
 @media only screen and (max-width: 1200px){
